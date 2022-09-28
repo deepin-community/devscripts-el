@@ -1,0 +1,7 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@ --with elpa
+
+override_dh_elpa:
+	dh_elpa --emacs-loadpath /usr/share/apel

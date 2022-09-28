@@ -1,0 +1,41 @@
+devscripts-el (40.5) unstable; urgency=medium
+
+  * Rebuild with current dh-elpa (no changes)
+
+ -- David Bremner <bremner@debian.org>  Sun, 06 Dec 2020 08:07:35 -0400
+
+devscripts-el (40.4) unstable; urgency=medium
+
+  * Team upload.
+  * Rebuild with current dh-elpa
+
+ -- David Bremner <bremner@debian.org>  Sat, 24 Aug 2019 19:50:54 -0300
+
+devscripts-el (40.3) unstable; urgency=medium
+
+  * Bug fix: "devscripts-el Depends: elpa-devscripts-el but it is not
+    installable", thanks to Adrian Bunk (Closes: #912434).
+
+ -- David Bremner <bremner@debian.org>  Wed, 31 Oct 2018 18:09:11 -0300
+
+devscripts-el (40.2) unstable; urgency=medium
+
+  * Bug fix: "please change Recommends to elpa-dpkg-dev-el instead of
+    dpkg-dev-el", thanks to Julian Gilbey (Closes: #912281).
+
+ -- David Bremner <bremner@debian.org>  Tue, 30 Oct 2018 08:51:46 -0300
+
+devscripts-el (40.1) unstable; urgency=medium
+
+  * Add back README.Debian
+  * Bug fix: "transitional package pulls in wrong package (elpa-debian-el
+    instead of elpa-devscripts-el)", thanks to Axel Beckert (Closes:
+    #904939).
+
+ -- David Bremner <bremner@debian.org>  Mon, 30 Jul 2018 06:22:04 +0800
+
+devscripts-el (40.0) unstable; urgency=medium
+
+  * Initial split from emacs-goodies-el (See #899221)
+
+ -- David Bremner <bremner@debian.org>  Sun, 29 Jul 2018 14:04:46 +0800
